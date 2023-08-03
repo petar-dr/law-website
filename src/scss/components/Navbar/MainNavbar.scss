@@ -1,0 +1,38 @@
+.mainNav {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  position: sticky;
+
+  &__navLogo {
+    text-decoration: none;
+    color: white;
+  }
+  &__navMenu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    width: fit-content;
+    padding: 10px;
+    &__item {
+      width: fit-content;
+      &__link {
+        display: block;
+        width: fit-content;
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+      }
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    width: fit-content;
+  }
+}

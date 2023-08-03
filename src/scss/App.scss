@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "./components/Navbar/Navbar.scss";
+@import "./components/PageContent.scss";
+@import "./components/Footer/Footer.scss";
+@import "./components/HomePage.scss";
+@import "./components/BlogPage.scss";
+
+

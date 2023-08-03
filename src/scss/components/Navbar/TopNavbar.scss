@@ -1,0 +1,9 @@
+@use "../../basic/" as *;
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  color: white;
+}

@@ -1,0 +1,14 @@
+@use "../../basic/" as *;
+
+@import "./TopNavbar.scss";
+@import "./MainNavbar.scss";
+
+
+.navbar{
+    position: sticky;
+    width: 100%;
+    top: -50px;
+    z-index: 5;
+    padding: 0 60px;
+
+}
