@@ -6,7 +6,6 @@ function Home() {
       <div className="homeContiner">
         <h1>Home</h1>
       </div>
-      <div className="otherContent"></div>
     </div>
   );
 }

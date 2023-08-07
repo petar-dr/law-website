@@ -1,10 +1,15 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Home from "./Home";
 import Blog from "./Blog";
 import NotFoundPage from "./NotFoundPage";
 
 function PageContent() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  
   return (
     <div className="pageContent">
       <Routes>
