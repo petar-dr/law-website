@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import TopFooter from "./TopFooter/TopFooter";
+import MainFooter from "./MainFooter/MainFooter";
+import BottomFooter from "./BottomFooter";
 
 function Footer() {
   return (
-    <div className='footer'>Footer</div>
-  )
+    <>
+      <TopFooter />
+      <MainFooter />
+      <BottomFooter />
+    </>
+  );
 }
 
-export default Footer
+export default Footer;

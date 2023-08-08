@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import Home from "./Home";
-import Blog from "./Blog";
-import NotFoundPage from "./NotFoundPage";
+import Home from "./Pages/Home";
+import Blog from "./Pages/Blog";
+import NotFoundPage from "./Pages/NotFoundPage";
 
 function PageContent() {
   const { pathname } = useLocation();

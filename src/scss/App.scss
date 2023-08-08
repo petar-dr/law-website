@@ -5,9 +5,10 @@
 }
 
 @import "./components/Navbar/Navbar.scss";
+
 @import "./components/PageContent.scss";
+
 @import "./components/Footer/Footer.scss";
-@import "./components/HomePage.scss";
-@import "./components/BlogPage.scss";
 
-
+@import "./components/Pages/HomePage.scss";
+@import "./components/Pages/BlogPage.scss";
