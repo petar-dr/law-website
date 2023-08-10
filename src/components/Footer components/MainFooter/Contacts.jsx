@@ -1,6 +1,8 @@
 import React from "react";
 import { FiMapPin, FiPhone } from "react-icons/fi";
 import { TfiEmail } from "react-icons/tfi";
+import { FaEnvelope } from "react-icons/fa";
+
 function Contacts() {
   return (
     <div className="contacts">
@@ -14,7 +16,7 @@ function Contacts() {
         +47 333 78 901
       </a>
       <a className="contacts__email" href="mailto: abc@example.com">
-        <TfiEmail className="topNav__contacts__emailIcon" /> 
+        <FaEnvelope className="topNav__contacts__emailIcon" /> 
         abc@example.com
       </a>
     </div>

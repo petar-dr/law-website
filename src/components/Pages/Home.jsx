@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="homePage">
       <div className="homeContiner">
-        <h1>Home</h1>
+        
       </div>
     </div>
   );

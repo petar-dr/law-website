@@ -1,12 +1,11 @@
-import React from "react";
 import { Link } from "react-router-dom";
-function MainNavbar() {
+function MainNavbar({ navSize }) {
   return (
     <nav className="mainNav">
       <Link to="/" className="mainNav__navLogo">
         LOGO
       </Link>
-      <ul className="mainNav__navMenu">
+      <ul className={navSize ? "mainNav__navMenu" : "hide"}>
         <li className="mainNav__navMenu__item">
           <Link to="/" className="mainNav__navMenu__item__link">
             Home
@@ -28,9 +27,16 @@ function MainNavbar() {
           </Link>
         </li>
       </ul>
-      <Link to="/contacUs" className="mainNav__btnContact">
-        Contact us
-      </Link>
+      <div className={navSize ? "mainNav__rightNav" : "hide"}>
+        <Link to="/contacUs" className="mainNav__rightNav__btnContact">
+          Contact us
+        </Link>
+      </div>
+      <div className={navSize ? "hide" : "mainNav__hamBtn"}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
   );
 }

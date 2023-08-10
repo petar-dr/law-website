@@ -1,12 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import TopNavbar from "./TopNavbar";
 import MainNavbar from "./MainNavbar";
 function Navbar() {
+  const [navColor, setNavColor] = useState(false);
+  const [navSize, setNavSize] = useState(false);
+
+  function changeNavBackground() {
+    if (window.scrollY >= 67) {
+      setNavColor(true);
+    } else {
+      setNavColor(false);
+    }
+  }
+  function navbarSize() {
+    if (window.innerWidth >= 992) {
+      setNavSize(true);
+    } else {
+      setNavSize(false);
+    }
+  }
+  useEffect(() => {
+    navbarSize();
+    window.addEventListener("scroll", changeNavBackground);
+    window.addEventListener("resize", navbarSize);
+  }, []);
+
   return (
-    <div className="navbar">
-      <TopNavbar />
-      <MainNavbar />
-    </div>
+    <nav className={navColor ? "navbar navBlack" : "navbar"}>
+      {!navSize || <TopNavbar />}
+      <MainNavbar navSize={navSize} />
+    </nav>
   );
 }
 
