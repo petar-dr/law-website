@@ -1,0 +1,16 @@
+.socials {
+  &__list {
+    list-style: none;
+    display: flex;
+    &__item {
+      &__link {
+        &__icon {
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}

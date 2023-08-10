@@ -1,7 +1,7 @@
 import React from "react";
 import TopFooter from "./TopFooter/TopFooter";
 import MainFooter from "./MainFooter/MainFooter";
-import BottomFooter from "./BottomFooter";
+import BottomFooter from "./BottomFooter/BottomFooter";
 
 function Footer() {
   return (

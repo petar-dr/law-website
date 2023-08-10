@@ -1,9 +1,6 @@
-import React from 'react'
-
+import React from "react";
 function BlogMIni() {
-  return (
-    <div>BlogMIni</div>
-  )
+  return <div>BlogMIni</div>;
 }
 
-export default BlogMIni
+export default BlogMIni;

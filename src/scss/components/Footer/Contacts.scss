@@ -1,4 +1,18 @@
 .contacts {
   display: flex;
   flex-direction: column;
+  &__title {
+  }
+  &__address {
+  
+  }
+  &__number {
+    text-decoration: none;
+    color: white;
+  }
+  &__email{
+    text-decoration: none;
+    color: white;
+
+  }
 }

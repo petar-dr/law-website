@@ -1,7 +1,13 @@
+//Top
 @import "./TopFooter.scss";
+//Main
 @import "./MainFooter.scss";
+@import "./SitesLinks.scss";
+@import "./PracticeAreas.scss";
 @import "./Contacts.scss";
- @import "./BottomFooter.scss";
+// Bottom
+@import "./BottomFooter.scss";
+@import "./Socials.scss";
 
 .footer {
   z-index: 5;

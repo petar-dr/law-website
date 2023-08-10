@@ -1,0 +1,14 @@
+.practice {
+    &__title {
+    }
+    &__list {
+      list-style: none;
+      &__item {
+        &__link {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+  
