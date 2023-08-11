@@ -1,7 +1,10 @@
+import React from "react";
 import { Link } from "react-router-dom";
+import HamBtn from "./HamBtn";
+
 function MainNavbar({ navSize }) {
   return (
-    <nav className="mainNav">
+    <div className="mainNav">
       <Link to="/" className="mainNav__navLogo">
         LOGO
       </Link>
@@ -32,12 +35,8 @@ function MainNavbar({ navSize }) {
           Contact us
         </Link>
       </div>
-      <div className={navSize ? "hide" : "mainNav__hamBtn"}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </nav>
+      <HamBtn navSize={navSize} />
+    </div>
   );
 }
 
