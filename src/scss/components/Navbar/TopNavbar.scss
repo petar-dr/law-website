@@ -1,7 +1,7 @@
 @use "../../basic/" as *;
 
 .topNav {
-  font-size: 18px;
+  font-size: 14px;
   display: flex;
   justify-content: space-between;
   height: 50px;
@@ -9,11 +9,15 @@
   color: white;
   padding: 0 60px;
   &__contacts {
-    font-size: 18px;
+    // font-size: 18px;
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
 
     &__phonelIcon {
       margin-right: 10px;
-      font-size: 16px;
+      // font-size: 16px;
     }
     &__number {
       text-decoration: none;
@@ -24,6 +28,11 @@
       text-decoration: none;
       padding: 10px 0;
       overflow: hidden;
+
+      height: 100%;
+      display: flex;
+      align-items: center;
+      
 
       &::before {
         content: "";
@@ -59,6 +68,10 @@
       text-decoration: none;
       padding: 10px 0;
       overflow: hidden;
+
+      height: 100%;
+      display: flex;
+      align-items: center;
 
       &::before {
         content: "";

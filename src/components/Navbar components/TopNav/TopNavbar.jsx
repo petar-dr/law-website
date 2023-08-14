@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-
+import { BiTime } from "react-icons/bi";
 
 function TopNavbar() {
   return (
@@ -16,8 +16,12 @@ function TopNavbar() {
         </a>
       </div>
       <div className="topNav__workTime">
-        <span>Working time: Monday to Friday 8am - 4pm</span>
+        <span>
+          <BiTime className="className=" topNav__workTime__icon /> 
+          Monday to Friday 8am - 4pm
+        </span>
       </div>
+      
     </div>
   );
 }

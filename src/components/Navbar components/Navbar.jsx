@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import TopNavbar from "./TopNavbar";
-import MainNavbar from "./MainNavbar";
+import TopNavbar from "./TopNav/TopNavbar";
+import MainNavbar from "./MainNav/MainNavbar";
 function Navbar() {
   const [navColor, setNavColor] = useState(false);
   const [navSize, setNavSize] = useState(false);
