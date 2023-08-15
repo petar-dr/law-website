@@ -9,7 +9,7 @@ function Translation() {
     "translation__dropDown hideDropMenu"
   );
   const [btnClasses, setBtnClasses] = useState("translation__btn");
-  // const [lang, setLang] = useState("RS");
+  const [lang, setLang] = useState(true);
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -34,7 +34,7 @@ function Translation() {
         onMouseLeave={() => setOpen(false)}
       >
         <ReactCountryFlag
-          countryCode="RS"
+          countryCode={lang? "RS": "GB"}
           svg
           className="translation__btn__flag"
           style={{
@@ -54,10 +54,11 @@ function Translation() {
             to={pathname}
             onClick={handleLang}
             className="translation__dropDown__box"
+            onClick={handleLang}
           >
-            <span className="translation__dropDown__box__text">EN</span>
+            <span className="translation__dropDown__box__text">{lang? "EN": "SR"}</span>
             <ReactCountryFlag
-              countryCode="GB"
+              countryCode={lang? "GB": "RS"}
               svg
               className="translation__dropDown__box__flag"
             />
