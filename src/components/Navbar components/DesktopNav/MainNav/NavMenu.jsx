@@ -1,14 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HamBtn from "./HamBtn";
 
-function MainNavbar({ navSize }) {
+function NavMenu() {
   return (
-    <div className="mainNav">
-      <Link to="/" className="mainNav__navLogo">
-        LOGO
-      </Link>
-      <ul className={navSize ? "mainNav__navMenu" : "hide"}>
+    <>
+      <ul className="mainNav__navMenu">
         <li className="mainNav__navMenu__item">
           <Link to="/" className="mainNav__navMenu__item__link">
             Home
@@ -30,14 +26,8 @@ function MainNavbar({ navSize }) {
           </Link>
         </li>
       </ul>
-      <div className={navSize ? "mainNav__rightNav" : "hide"}>
-        <Link to="/contacUs" className="mainNav__rightNav__btnContact">
-          Contact us
-        </Link>
-      </div>
-      <HamBtn navSize={navSize} />
-    </div>
+    </>
   );
 }
 
-export default MainNavbar;
+export default NavMenu;

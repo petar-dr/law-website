@@ -1,19 +1,23 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-function HamBtn({ navSize }) {
+function HamBtn({ setHamClick }) {
   const [barClass1, setBarClass1] = useState("hamBtn__bar");
   const [barClass2, setBarClass2] = useState("hamBtn__bar");
   const [barClass3, setBarClass3] = useState("hamBtn__bar");
-  const [menuClick, setMenuClick] = useState(false);
+  const [click, setClick] = useState(false);
 
-  function updateMenu() {
-    if (menuClick) {
-      setMenuClick(false);
+  useEffect(() => {
+    setHamClick(click);
+  }, [click]);
+
+  function updateClick() {
+    if (click) {
+      setClick(!click);
       setBarClass1("hamBtn__bar unclicked");
       setBarClass2("hamBtn__bar");
       setBarClass3("hamBtn__bar unclicked");
     } else {
-      setMenuClick(true);
+      setClick(!click);
       setBarClass1("hamBtn__bar clicked1");
       setBarClass2("hide");
       setBarClass3("hamBtn__bar clicked3");
@@ -21,7 +25,7 @@ function HamBtn({ navSize }) {
   }
 
   return (
-    <div className={navSize ? "hide" : "hamBtn"} onClick={updateMenu}>
+    <div className="hamBtn" onClick={updateClick}>
       <span className={barClass1}></span>
       <span className={barClass2}></span>
       <span className={barClass3}></span>

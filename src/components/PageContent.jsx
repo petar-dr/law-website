@@ -6,10 +6,6 @@ import NotFoundPage from "./Pages/NotFoundPage";
 
 
 function PageContent() {
-  // const { pathname } = useLocation();
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, [pathname]);
 
   return (
     <main className="pageContent">

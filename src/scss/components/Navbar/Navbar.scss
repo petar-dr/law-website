@@ -1,25 +1,2 @@
-@use "../../basic/" as *;
-
-@import "./TopNavbar.scss";
-@import "./Translation.scss";
-@import "./MainNavbar.scss";
-@import "./HamBtn.scss";
-
-.navbar {
-  width: 100%;
-  top: -50px;
-  z-index: 5;
-  position: sticky;
-  // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  // backdrop-filter: blur(8px);
-  box-shadow: inset 0 270px 100px -200px rgba(0, 0, 0, 2);
-  @include media("md") {
-    top: 0;
-  }
-}
-
-.navBlack {
-  background-color: #212121;
-  transition: all 0.3s;
-  backdrop-filter: blur(8px);
-}
+@import "./Desctop/DesktopNav.scss";
+@import "./Mobile/MobileNav.scss"

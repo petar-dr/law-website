@@ -22,8 +22,10 @@ function Translation() {
     }
   }, [open]);
 
-  function handleLang(e) {
-    console.log(e.target);
+  function handleLang() {
+    setLang(!lang);
+    setOpen(false)
+    console.log("klick");
   }
   return (
     <div className="translation">
@@ -34,7 +36,7 @@ function Translation() {
         onMouseLeave={() => setOpen(false)}
       >
         <ReactCountryFlag
-          countryCode={lang? "RS": "GB"}
+          countryCode={lang ? "RS" : "GB"}
           svg
           className="translation__btn__flag"
           style={{
@@ -54,11 +56,12 @@ function Translation() {
             to={pathname}
             onClick={handleLang}
             className="translation__dropDown__box"
-            onClick={handleLang}
           >
-            <span className="translation__dropDown__box__text">{lang? "EN": "SR"}</span>
+            <span className="translation__dropDown__box__text">
+              {lang ? "EN" : "SR"}
+            </span>
             <ReactCountryFlag
-              countryCode={lang? "GB": "RS"}
+              countryCode={lang ? "GB" : "RS"}
               svg
               className="translation__dropDown__box__flag"
             />
