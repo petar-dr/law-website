@@ -8,33 +8,41 @@ function Socials() {
         <li className="socials__list__item">
           <a
             href="http://www.facebook.com"
-            className="socials__list__item__link" target="_blank"
+            className="socials__list__item__link"
+            target="_blank"
+            rel="noreferrer"
           >
-            <BsFacebook  className="socials__list__item__link__icon" />
+            <BsFacebook className="socials__list__item__link__icon" />
           </a>
         </li>
         <li className="socials__list__item">
           <a
             href="http://www.instagram.com"
-            className="socials__list__item__link" target="_blank"
+            className="socials__list__item__link"
+            target="_blank"
+            rel="noreferrer"
           >
-            <BsInstagram  className="socials__list__item__link__icon"/>
+            <BsInstagram className="socials__list__item__link__icon" />
           </a>
         </li>
         <li className="socials__list__item">
           <a
             href="http://www.linkedin.com"
-            className="socials__list__item__link" target="_blank"
+            className="socials__list__item__link"
+            target="_blank"
+            rel="noreferrer"
           >
-            <BsLinkedin  className="socials__list__item__link__icon"/>
+            <BsLinkedin className="socials__list__item__link__icon" />
           </a>
         </li>
         <li className="socials__list__item">
           <a
             href="http://www.twitter.com"
-            className="socials__list__item__link" target="_blank"
+            className="socials__list__item__link"
+            target="_blank"
+            rel="noreferrer"
           >
-            <BsTwitter  className="socials__list__item__link__icon"/>
+            <BsTwitter className="socials__list__item__link__icon" />
           </a>
         </li>
       </ul>

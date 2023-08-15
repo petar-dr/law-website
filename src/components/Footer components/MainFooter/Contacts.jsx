@@ -1,6 +1,5 @@
 import React from "react";
 import { FiMapPin, FiPhone } from "react-icons/fi";
-import { TfiEmail } from "react-icons/tfi";
 import { FaEnvelope } from "react-icons/fa";
 
 function Contacts() {
