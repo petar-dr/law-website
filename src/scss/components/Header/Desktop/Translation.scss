@@ -2,8 +2,12 @@
   display: flex;
   align-items: center;
   color: white;
-
   position: relative;
+  @include media("md") {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
   &__btn {
     border: none;
     padding: 8px 10px;
@@ -16,6 +20,7 @@
     align-items: center;
     cursor: pointer;
     filter: grayscale(0.6);
+   
 
     &__flag {
       font-size: 16px;

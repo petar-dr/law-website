@@ -8,11 +8,11 @@ function MobileNav() {
   console.log(hamClick);
 
   return (
-    <div className="mobileNav">
+    <nav className="mobileNav">
       <Logo />
       <HamBtn setHamClick={setHamClick} />
       <MobileMenu hamClick={hamClick} />
-    </div>
+    </nav>
   );
 }
 

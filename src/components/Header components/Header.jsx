@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import MobileNav from "./MobileNav/MobileNav";
-import DesctopNav from "./DesktopNav/DesctopNav";
+import DesktopHeader from "./DesktopNav/DesktopHeader";
 
 function Navbar() {
   const [navSize, setNavSize] = useState(false);
@@ -17,7 +17,7 @@ function Navbar() {
     window.addEventListener("resize", navbarSize);
   }, []);
 
-  return <>{navSize ? <DesctopNav /> : <MobileNav />}</>;
+  return <>{navSize ? <DesktopHeader /> : <MobileNav />}</>;
 }
 
 export default Navbar;

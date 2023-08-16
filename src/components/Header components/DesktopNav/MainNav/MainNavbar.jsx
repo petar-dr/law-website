@@ -5,11 +5,11 @@ import ContactBtn from "./ContactBtn";
 
 function MainNavbar() {
   return (
-    <div className="mainNav">
+    <nav className="mainNav">
       <Logo />
       <NavMenu />
       <ContactBtn />
-    </div>
+    </nav>
   );
 }
 

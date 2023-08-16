@@ -8,6 +8,14 @@ a {
   text-decoration: none !important;
 }
 
+@font-face {
+  font-family: "Gilroy";
+  src: url(../../public/font/Gilroy/Gilroy-Regular.ttf);
+}
+.fontGilroy{
+  font-family: "Gilroy";
+}
+
 @import "./components/Header/Navbar.scss";
 
 @import "./components/PageContent.scss";
