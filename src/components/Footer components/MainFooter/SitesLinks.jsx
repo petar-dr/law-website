@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function SitesLinks() {
   return (
-    <div className="sitesLinks">
+    <div className="sitesLinks col-12 col-sm-6 col-lg-3">
       <h3 className="sitesLinks__title">SITES LINKS</h3>
       <ul className="sitesLinks__list">
         <li className="sitesLinks__list__item">

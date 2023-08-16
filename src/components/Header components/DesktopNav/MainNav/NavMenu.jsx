@@ -16,7 +16,7 @@ function NavMenu() {
           </Link>
         </li>
         <li className="mainNav__navMenu__item">
-          <Link to="/aboutUs" className="mainNav__navMenu__item__link">
+          <Link to="/about" className="mainNav__navMenu__item__link">
             About us
           </Link>
         </li>

@@ -1,0 +1,21 @@
+@import "../../../basic/";
+
+@import "./WhoWeAre.scss";
+
+.homePage {
+  &__section1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../../../../public/images/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 130px;
+    margin-top: -130px;
+    transition: all 0.3s;
+    @include media("md") {
+      padding-top: 0;
+      margin-top: 0;
+    }
+  }
+}

@@ -5,7 +5,7 @@ import BottomFooter from "./BottomFooter/BottomFooter";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <TopFooter />
       <MainFooter />
       <BottomFooter />

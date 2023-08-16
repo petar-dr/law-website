@@ -62,13 +62,14 @@
   }
   &__rightNav {
     &__btnContact {
+      
       font-weight: bold;
       position: relative;
       text-decoration: none;
       color: white;
       padding: 10px 20px;
       border: 1px solid white;
-      width: fit-content;
+      // width: fit-content;
       overflow: hidden;
       &:hover {
         color: black;

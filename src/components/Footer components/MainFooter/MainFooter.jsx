@@ -7,10 +7,10 @@ import Contacts from "./Contacts";
 function MainFooter() {
   return (
     <div className="mainFooter">
-      <SitesLinks className="mainFooter--section"/>
-      <PracticeAreas className="mainFooter--section"/>
-      <Posts className="mainFooter--section"/>
-      <Contacts className="mainFooter--section"/>
+      <SitesLinks />
+      <PracticeAreas />
+      <Posts />
+      <Contacts />
     </div>
   );
 }

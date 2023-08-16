@@ -1,0 +1,65 @@
+.howWeAre {
+  width: 100%;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  &__box {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    &__question {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid black;
+      &__title {
+        font-size: 44px;
+      }
+    }
+    &__description {
+      width: 50%;
+      padding: 40px 0 40px 60px;
+      &__title {
+        font-size: 22px;
+        margin-bottom: 30px;
+      }
+      &__text {
+        font-size: 16px;
+        margin-bottom: 20px;
+
+      }
+      &__link {
+        position: relative;
+        font-size:16px;
+        padding: 7px 14px;
+        border: 1px solid black;
+        overflow: hidden;
+        &:hover {
+          color: white;
+          transition: 300ms;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          z-index: -1;
+          background-color: black;
+
+          transition: transform 300ms ease-in-out;
+          transform: scaleX(0);
+          transform-origin: left;
+        }
+        &:hover::before {
+          transform: scaleX(1);
+        }
+      }
+    }
+  }
+}

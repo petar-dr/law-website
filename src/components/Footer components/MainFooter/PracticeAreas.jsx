@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function PracticeAreas() {
   return (
-    <div className="practice">
+    <div className="practice col-12 col-sm-6 col-lg-3">
       <h3 className="practice__title">PRACTICE AREAS</h3>
       <ul className="practice__list">
         <li className="practice__list__item">

@@ -4,7 +4,8 @@ import { FaEnvelope } from "react-icons/fa";
 
 function Contacts() {
   return (
-    <div className="contacts">
+    <div className="contacts col-12 col-sm-6 col-lg-3 ">
+      
       <h3 className="contacts__title">CONTACTS</h3>
       <span className="contacts__address">
         <FiMapPin className="topNav__contacts__phonelIcon" />

@@ -1,11 +1,10 @@
 import React from "react";
-
+import WhoWeAre from "./WhoWeAre";
 function Home() {
   return (
     <div className="homePage">
-      <div className="homeContiner">
-        
-      </div>
+      <section className="homePage__section1"></section>
+      <WhoWeAre />
     </div>
   );
 }

@@ -1,14 +1,15 @@
 .practice {
-    &__title {
-    }
-    &__list {
-      list-style: none;
-      &__item {
-        &__link {
-          text-decoration: none;
-          color: white;
-        }
+  &__title {
+  }
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    &__item {
+      &__link {
+        text-decoration: none;
+        color: white;
       }
     }
   }
-  
+}
