@@ -25,7 +25,7 @@ function Translation() {
   function handleLang() {
     setLang(!lang);
     setOpen(false)
-    console.log("klick");
+
   }
   return (
     <div className="translation">
