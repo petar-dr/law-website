@@ -1,6 +1,6 @@
 import React from "react";
 import WhoWeAre from "./WhoWeAre";
-// import Services from "./Services";
+import Services from "./Services";
 import FreeConsultation from "./FreeConsultation";
 import VideoCover from "./VideoCover";
 
@@ -10,7 +10,7 @@ function Home() {
       {/* <section className="homePage__section1"></section> */}
       <VideoCover/>
       <WhoWeAre />
-      {/* <Services/> */}
+      <Services/>
       <FreeConsultation/>
     </div>
   );

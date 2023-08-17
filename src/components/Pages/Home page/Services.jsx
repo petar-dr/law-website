@@ -1,5 +1,5 @@
 import React from "react";
-// import ServicesSlider from "./ServicesSlider";
+import ServicesSlider from "./ServicesSlider";
 
 function Services() {
   return (
@@ -13,7 +13,7 @@ function Services() {
           businesses. Click on the photos below to learn more.
         </p>
       </div>
-      {/* <ServicesSlider/> */}
+      <ServicesSlider/>
     </section>
   );
 }
