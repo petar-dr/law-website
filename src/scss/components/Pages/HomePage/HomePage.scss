@@ -1,6 +1,11 @@
 @import "../../../basic/";
 
-@import "./WhoWeAre.scss";
+@import "./VideoCover.scss";
+@import "./WhoWeAre";
+@import "./Services";
+@import "./ServicesSlider";
+@import "./FreeConsultation";
+
 
 .homePage {
   &__section1 {

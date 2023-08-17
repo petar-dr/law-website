@@ -1,3 +1,6 @@
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 import PageContainer from './components/PageContainer';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import './scss/App.scss';
