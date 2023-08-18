@@ -1,9 +1,6 @@
 .customSlider {
   position: relative;
   height: 500px;
-  // background-image: url("../../../../../public/images/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg");
-  // background-position: center;
-  // background-size: cover;
   filter: grayscale(0.8);
   cursor: pointer;
   transition: 0.3s;
@@ -11,15 +8,16 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin: 50px;
   &:hover {
-    filter: grayscale(0.2);
+    backdrop-filter: grayscale(0);
     transition: 0.3s;
   }
   &__title {
     padding: 10px 15px;
-    border-radius: 10px;
     z-index: 1;
     font-weight: bold;
+    border-bottom: 4px solid white;
 
   }
   &__img {

@@ -1,14 +1,13 @@
 .bottomFooter {
   width: 100%;
   padding: 0 60px;
-  background-color: rgb(8, 8, 8);
+  background-color: inherit;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 60px;
   border-top: 1px solid white;
-  border-bottom: 1px solid white;
 
   &__text {
     font-size: 16px;

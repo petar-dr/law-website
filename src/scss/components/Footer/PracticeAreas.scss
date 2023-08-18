@@ -1,14 +1,18 @@
 .practice {
   &__title {
+    margin-bottom: 15px;
+    font-size: 20px;
   }
   &__list {
     list-style: none;
     padding: 0;
     margin: 0;
     &__item {
+      margin-bottom: 7px;
+
       &__link {
         text-decoration: none;
-        color: white;
+        color: #808080;
       }
     }
   }

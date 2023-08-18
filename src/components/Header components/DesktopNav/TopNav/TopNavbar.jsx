@@ -9,6 +9,7 @@ function TopNavbar() {
       <div className="topNav__contacts">
         <a className="topNav__contacts__number" href="tel:+4733378901">
           <FaPhoneAlt className="topNav__contacts__phonelIcon" />
+          {/* Call for free consulatation:  */}
           +47 333 78 901
         </a>
         <a className="topNav__contacts__email" href="mailto: abc@example.com">

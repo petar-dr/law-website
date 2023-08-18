@@ -3,6 +3,9 @@
   height: calc(100vh - 80px);
   position: relative;
   //  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &__videoBg {
     position: absolute;
@@ -11,5 +14,12 @@
     height: 100vh;
     object-fit: cover;
     filter: grayscale(0.7);
+    z-index: -1;
+  }
+  &__title{
+    // z-index: 10;
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
   }
 }

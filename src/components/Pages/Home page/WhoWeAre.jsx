@@ -6,7 +6,7 @@ function WhoWeAre() {
     <section className="howWeAre">
       <div className="howWeAre__box">
         <div className="howWeAre__box__question">
-          <h3 className="howWeAre__box__question__title">Who we are?</h3>
+          <h3 className="howWeAre__box__question__title">Who are we?</h3>
         </div>
         <div className="howWeAre__box__description">
           <h4 className="howWeAre__box__description__title">
