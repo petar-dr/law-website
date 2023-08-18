@@ -1,13 +1,16 @@
 //Top
 @import "./TopFooter.scss";
+@import "./Socials.scss";
 //Main
 @import "./MainFooter.scss";
 @import "./SitesLinks.scss";
 @import "./PracticeAreas.scss";
+@import "./Posts.scss";
 @import "./Contacts.scss";
+
 // Bottom
 @import "./BottomFooter.scss";
-@import "./Socials.scss";
+
 
 .footer {
   height: fit-content;

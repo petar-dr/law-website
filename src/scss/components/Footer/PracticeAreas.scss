@@ -13,6 +13,11 @@
       &__link {
         text-decoration: none;
         color: #808080;
+        &:hover{
+          color: white;
+          margin-left: 5px;
+          transition: 0.3s;
+        }
       }
     }
   }

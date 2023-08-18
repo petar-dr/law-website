@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function WhoWeAre() {
   return (
-    <section className="howWeAre">
+    <section id="section2" className="howWeAre">
       <div className="howWeAre__box">
         <div className="howWeAre__box__question">
           <h3 className="howWeAre__box__question__title">Who are we?</h3>

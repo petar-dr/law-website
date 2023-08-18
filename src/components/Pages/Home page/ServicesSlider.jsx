@@ -19,36 +19,33 @@ export default class PauseOnHover extends Component {
       autoplay: true,
       autoplaySpeed: 5000,
       pauseOnHover: true,
+      nextArrow: <NextArrow />,
+      prevArrow: <PrevArrow />,
     };
     return (
       <div>
         <Slider {...settings}>
           <CustomSlider
-            style={{ width: 100 }}
             index={1}
             title={"Family law"}
             imgUrl={family}
           />
           <CustomSlider
-            style={{ width: 100 }}
             index={2}
             title={"Criminal defence"}
             imgUrl={crime}
           />
           <CustomSlider
-            style={{ width: 100 }}
             index={3}
             title={"Real estate"}
             imgUrl={realEstate}
           />
           <CustomSlider
-            style={{ width: 100 }}
             index={4}
             title={"Corporate law"}
             imgUrl={corporate}
           />
           <CustomSlider
-            style={{ width: 100 }}
             index={5}
             title={"Personal injury"}
             imgUrl={injury}
@@ -65,5 +62,26 @@ function CustomSlider({ index, title, imgUrl }) {
       <h2 className="customSlider__title">{title}</h2>
       <img src={imgUrl} alt="" className="customSlider__img" />
     </Link>
+  );
+}
+function NextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "transparent" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "transparent" }}
+      onClick={onClick}
+    />
   );
 }

@@ -4,19 +4,19 @@ import { FaEnvelope } from "react-icons/fa";
 
 function Contacts() {
   return (
-    <div className="contacts col-12 col-sm-6 col-lg-3 ">
+    <div className="footerContacts col-12 col-sm-6 col-lg-3 ">
       
-      <h3 className="contacts__title">CONTACTS</h3>
-      <span className="contacts__address">
-        <FiMapPin className="topNav__contacts__phonelIcon" />
+      <h3 className="footerContacts__title">Constacts</h3>
+      <span className="footerContacts__text">
+        <FiMapPin className="footerContacts__icon" />
         Kralja Petra 28, 11000 Belgrade, Serbia
       </span>
-      <a className="contacts__number" href="tel:+4733378901">
-        <FiPhone className="topNav__contacts__emailIcon" />
+      <a className="footerContacts__text" href="tel:+4733378901">
+        <FiPhone className="footerContacts__icon" />
         +47 333 78 901
       </a>
-      <a className="contacts__email" href="mailto: abc@example.com">
-        <FaEnvelope className="topNav__contacts__emailIcon" /> 
+      <a className="footerContacts__text" href="mailto: abc@example.com">
+        <FaEnvelope className="footerContacts__icon" /> 
         abc@example.com
       </a>
     </div>

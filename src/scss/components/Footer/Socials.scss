@@ -1,6 +1,9 @@
 .socials {
   display: flex;
-  
+  &__title {
+    margin: 0;
+  }
+
   &__list {
     list-style: none;
     display: flex;
