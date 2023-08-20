@@ -20,6 +20,7 @@ function VideoCover() {
           <BsArrowDownCircle className="videoBox__bottomDiv__icon" />
         </a>
       </div>
+      <div className="videoBox__logoBack"></div>
     </div>
   );
 }

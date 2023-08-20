@@ -6,7 +6,7 @@ function Contacts() {
   return (
     <div className="footerContacts col-12 col-sm-6 col-lg-3 ">
       
-      <h3 className="footerContacts__title">Constacts</h3>
+      <h3 className="footerContacts__title">Contacts</h3>
       <span className="footerContacts__text">
         <FiMapPin className="footerContacts__icon" />
         Kralja Petra 28, 11000 Belgrade, Serbia
