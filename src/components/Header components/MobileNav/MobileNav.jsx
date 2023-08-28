@@ -5,7 +5,6 @@ import MobileMenu from "./MobileMenu";
 
 function MobileNav() {
   const [hamClick, setHamClick] = useState(false);
-  console.log(hamClick);
 
   return (
     <nav className="mobileNav">

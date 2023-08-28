@@ -12,11 +12,9 @@ a {
   font-family: "Gilroy";
   src: url(../../public/font/Gilroy/Gilroy-Regular.ttf);
 }
-.fontGilroy{
+.fontGilroy {
   font-family: "Gilroy";
 }
-
-
 
 @import "./components/Header/Navbar.scss";
 
@@ -25,4 +23,7 @@ a {
 @import "./components/Footer/Footer.scss";
 
 @import "./components/Pages/HomePage/HomePage.scss";
-@import "./components/Pages/BlogPage.scss";
+@import "./components/Pages/BlogPage/BlogPage.scss";
+
+//Sections
+@import "./components/Sections/IntroSection.scss";
