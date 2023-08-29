@@ -1,5 +1,14 @@
+@import "./BlogShort.scss";
+
 .blogPage {
   height: fit-content;
   width: 100%;
   min-height: calc(100vh - 50px);
+  &__mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    flex-direction: column;
+  }
 }

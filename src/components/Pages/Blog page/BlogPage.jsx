@@ -1,6 +1,6 @@
 import React from "react";
 import IntroSection from "../../Sections/IntroSection";
-import Blog from "./Blog";
+import BlogShort from "./BlogShort";
 
 function BlogPage() {
   const pageTitle = "Blog";
@@ -10,8 +10,10 @@ function BlogPage() {
         pageTitle={pageTitle}
         imgSource={require("../../../assets/img/Blog page/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg")}
       />
-      <Blog />
-      <Blog />
+      <div className="blogPage__mainContent">
+        <BlogShort />
+        <BlogShort />
+      </div>
     </div>
   );
 }

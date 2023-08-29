@@ -1,5 +1,5 @@
 import React from "react";
-import imgBack from "../../../assets/img/freeConsultation/charles-forerunner-3fPXt37X6UQ-unsplash.jpg";
+import imgBack from "../../../assets/img/Home page/freeConsultation/charles-forerunner-3fPXt37X6UQ-unsplash.jpg";
 
 function FreeConsultation() {
   return (

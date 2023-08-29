@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
-import family from "../../../assets/img/servicesImg/family.jpg";
-import crime from "../../../assets/img/servicesImg/crime.jpg";
-import injury from "../../../assets/img/servicesImg/injury.jpg";
-import corporate from "../../../assets/img/servicesImg/corporate.jpg";
-import realEstate from "../../../assets/img/servicesImg/realEstate.jpg";
+import family from "../../../assets/img/Home page/servicesImg/family.jpg";
+import crime from "../../../assets/img/Home page/servicesImg/crime.jpg";
+import injury from "../../../assets/img/Home page/servicesImg/injury.jpg";
+import corporate from "../../../assets/img/Home page/servicesImg/corporate.jpg";
+import realEstate from "../../../assets/img/Home page/servicesImg/realEstate.jpg";
 
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
+
 export default class PauseOnHover extends Component {
   render() {
     var settings = {
