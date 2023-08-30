@@ -1,5 +1,7 @@
 import React from "react";
 import Socials from "./Socials";
+
+
 function TopFooter() {
   return (
     <div className="topFooter">

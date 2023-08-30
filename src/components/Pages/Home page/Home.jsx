@@ -1,7 +1,7 @@
 import React from "react";
 import WhoWeAre from "./WhoWeAre";
 import Services from "./Services";
-import FreeConsultation from "./FreeConsultation";
+// import FreeConsultation from "./FreeConsultation";
 import VideoCover from "./VideoCover";
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
       <VideoCover/>
       <WhoWeAre />
       <Services/>
-      <FreeConsultation/>
+      {/* <FreeConsultation/> */}
     </div>
   );
 }

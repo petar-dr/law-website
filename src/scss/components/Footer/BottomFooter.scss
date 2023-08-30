@@ -1,13 +1,15 @@
+@use "../../basic/" as *;
+
 .bottomFooter {
   width: 100%;
   padding: 0 60px;
   background-color: inherit;
-  color: white;
+  color: $text_light;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60px;
-  border-top: 1px solid white;
+  border-top: 1px solid $footerBorder;
 
   &__text {
     font-size: 16px;
