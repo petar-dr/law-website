@@ -21,7 +21,7 @@ function NavMenu() {
           </Link>
         </li>
         <li className="mainNav__navMenu__item">
-          <Link to="/ourTeam" className="mainNav__navMenu__item__link">
+          <Link to="/team" className="mainNav__navMenu__item__link">
             Our team
           </Link>
         </li>

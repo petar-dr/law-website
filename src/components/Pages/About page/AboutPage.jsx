@@ -8,7 +8,7 @@ function AboutPage() {
     <div className="aboutPage">
       <IntroSection
         pageTitle={pageTitle}
-        imgSource={require("../../../assets/img/About page/pexels-sevenstorm-juhaszimrus-443383.jpg")}
+        imgSource={require("../../../assets/img/Sections/IntroImg/about.jpg")}
       />
       <div className="aboutPage__mainContent">
         <div className="aboutPage__mainContent__text">

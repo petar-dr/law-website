@@ -8,7 +8,7 @@ function BlogPage() {
     <div className="blogPage">
       <IntroSection
         pageTitle={pageTitle}
-        imgSource={require("../../../assets/img/Blog page/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg")}
+        imgSource={require("../../../assets/img/Sections/IntroImg/blog.jpg")}
       />
       <div className="blogPage__mainContent">
         <BlogShort />
