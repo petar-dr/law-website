@@ -1,20 +1,31 @@
 import React from "react";
-import blogImg from "../../../assets/img/Blog page/blogImg.jpg";
+import blogImg from "../../../assets/img/Blog page/BlogShort/blogImg 650x433.jpg";
 
 function BlogShort() {
   return (
     <article className="blogShort">
       <div className="blogShort__left ">
         <div className="blogShort__left__box">
-          <img src={blogImg} alt="Blog img" className="blogShort__left__box__img" />
+          <img
+            loading="lazy"
+            src={blogImg}
+            alt="Blog img"
+            className="blogShort__left__box__img"
+          />
         </div>
       </div>
       <div className="blogShort__content ">
         <div className="blogShort__content__header">
-          <span className="blogShort__content__header__date ">August 29, 2023</span>
-          <span className="blogShort__content__header__writer">written by Boban Lukovic </span>
+          <span className="blogShort__content__header__date ">
+            August 29, 2023
+          </span>
+          <span className="blogShort__content__header__writer">
+            written by Boban Lukovic{" "}
+          </span>
         </div>
-        <h2 className="blogShort__content__title">Lorem ipsum dolor sit amet</h2>
+        <h2 className="blogShort__content__title">
+          Lorem ipsum dolor sit amet
+        </h2>
         <p className="blogShort__content__text">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
           repellat porro ut neque voluptate recusandae cumque aspernatur atque
