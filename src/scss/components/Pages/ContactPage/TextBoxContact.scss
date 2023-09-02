@@ -1,0 +1,53 @@
+.textBoxContacts {
+  width: 100%;
+  height: fit-content;
+  &__title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__paraf {
+    font-size: 18px;
+    margin: 0;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    &__workTime {
+      width: fit-content;
+      display: flex;
+      flex-direction: row;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      padding: 20px;
+
+      &__title {
+        font-size: 25px;
+        padding: 20px;
+        border-right: 1px solid #1a1616;
+        margin: 0;
+      }
+      &__wrapper {
+        font-size: 20px;
+        padding: 10px 10px 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__days {
+          margin-right: 15px;
+        }
+        &__icon {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

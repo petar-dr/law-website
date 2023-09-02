@@ -1,5 +1,7 @@
 import React from "react";
 import IntroSection from "../../Sections/IntroSection";
+import TextBoxContact from "./TextBoxContact";
+import ContactsLarge from "./ContactsLarge";
 
 function ContactPage() {
   const pageTitle = "Contact us";
@@ -10,9 +12,11 @@ function ContactPage() {
         pageTitle={pageTitle}
         imgSource={require("../../../assets/img/Sections/IntroImg/Contact/contact1300x876.jpg")}
       />
-      <div className="contactPage__mainContact">
-
+      <div className="contactPage__main">
+        <TextBoxContact />
+        <ContactsLarge />
       </div>
+    
     </div>
   );
 }

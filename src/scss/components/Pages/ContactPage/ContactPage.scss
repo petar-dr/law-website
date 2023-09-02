@@ -1,0 +1,16 @@
+@import "./ContactsLarge.scss";
+@import "./TextBoxContact.scss";
+
+.contactPage {
+  width: 100%;
+  height: fit-content;
+  
+  &__main {
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
