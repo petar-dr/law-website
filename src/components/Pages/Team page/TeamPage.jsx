@@ -7,7 +7,7 @@ function TeamPage() {
     <div className="teamPage">
       <IntroSection
         pageTitle={pageTitle}
-        imgSource={require("../../../assets/img/Sections/IntroImg/team.jpg")}
+        imgSource={require("../../../assets/img/Sections/IntroImg/Team/team1300x867.jpg")}
       />
     </div>
   );

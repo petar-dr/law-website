@@ -44,7 +44,7 @@ function Translation() {
             height: "20px",
           }}
         />
-        <BiSolidDownArrow className="translation__btn__arrow" />
+        <BiSolidDownArrow className={open?"translation__btn__arrow rotateDown": "translation__btn__arrow rotateUp"} />
       </button>
       <div
         className={dropClasses}

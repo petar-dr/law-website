@@ -1,6 +1,7 @@
 .introSection {
   width: 100%;
   height: calc((100vh - 130px) / 2);
+  min-height: 300px;
   position: relative;
   display: flex;
   justify-content: start;

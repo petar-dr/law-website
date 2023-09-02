@@ -16,8 +16,6 @@ function PageContent() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/contact" element={<ContactPage/>} />
-
-
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </main>

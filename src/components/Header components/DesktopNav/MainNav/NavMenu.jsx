@@ -1,7 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 function NavMenu() {
+
   return (
     <>
       <ul className="mainNav__navMenu">

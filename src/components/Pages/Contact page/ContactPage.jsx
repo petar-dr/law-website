@@ -8,8 +8,11 @@ function ContactPage() {
     <div className="contactPage">
       <IntroSection
         pageTitle={pageTitle}
-        imgSource={require("../../../assets/img/Sections/IntroImg/contact.jpg")}
+        imgSource={require("../../../assets/img/Sections/IntroImg/Contact/contact1300x876.jpg")}
       />
+      <div className="contactPage__mainContact">
+
+      </div>
     </div>
   );
 }
