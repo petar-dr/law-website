@@ -1,7 +1,8 @@
 import React from "react";
-import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { BiTime } from "react-icons/bi";
+import { BsCalendarEvent } from "react-icons/bs";
 import Translation from "./Translation";
+import Socials from "../../../Socials";
 
 function TopNavbar() {
   return (
@@ -19,11 +20,18 @@ function TopNavbar() {
         <span className="topNav__rightSection__workTime">
           <BiTime className="topNav__rightSection__workTime__icon" />
           <span>Working hours:&nbsp;&nbsp;</span>
-          <span>Monday to Friday&nbsp;</span>
-          <span>8am - 4pm</span>
+          <span>
+            {/* <BsCalendarEvent className="topNav__rightSection__workTime__icon" /> */}
+            Monday to Friday&nbsp;
+          </span>
+          <span>
+            {/* <BiTime className="topNav__rightSection__workTime__icon" /> */}
+            8am - 4pm
+          </span>
         </span>
       </div>
       <div className="topNav__rightSection">
+        <Socials />
         <Translation />
       </div>
     </div>

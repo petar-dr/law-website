@@ -4,7 +4,6 @@ import { BsInstagram, BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
 function Socials() {
   return (
     <div className="socials">
-      <h5 className="socials__title">Conected with us</h5>
       <ul className="socials__list">
         <li className="socials__list__item">
           <a
