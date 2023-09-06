@@ -1,6 +1,6 @@
 import React from "react";
-import IntroSection from "../../Sections/IntroSection";
-import Organizations from "./Organizations";
+import IntroSection from "../components/Sections/IntroSection";
+import Organizations from "../components/Pages components/About page/Organizations";
 
 function AboutPage() {
   const pageTitle = "About us";
@@ -8,7 +8,7 @@ function AboutPage() {
     <div className="aboutPage">
       <IntroSection
         pageTitle={pageTitle}
-        imgSource={require("../../../assets/img/Sections/IntroImg/About/aboutReSize.jpg")}
+        imgSource={require("../assets/img/Sections/IntroImg/About/aboutReSize.jpg")}
       />
       <div className="aboutPage__mainContent">
         <div className="aboutPage__mainContent__text">

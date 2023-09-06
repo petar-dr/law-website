@@ -1,5 +1,5 @@
 import React from "react";
-import IntroSection from "../../Sections/IntroSection";
+import IntroSection from "../components/Sections/IntroSection";
 
 function TeamPage() {
   const pageTitle = "Our team";
@@ -7,7 +7,7 @@ function TeamPage() {
     <div className="teamPage">
       <IntroSection
         pageTitle={pageTitle}
-        imgSource={require("../../../assets/img/Sections/IntroImg/Team/team1300x867.jpg")}
+        imgSource={require("../assets/img/Sections/IntroImg/Team/team1300x867.jpg")}
       />
     </div>
   );

@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./Pages/Home page/Home";
-import NotFoundPage from "./Pages/NotFoundPage";
-import BlogPage from "./Pages/Blog page/BlogPage";
-import AboutPage from "./Pages/About page/AboutPage";
-import TeamPage from "./Pages/Team page/TeamPage";
-import ContactPage from "./Pages/Contact page/ContactPage";
+import Home from "./Home";
+import NotFoundPage from "./NotFoundPage";
+import BlogPage from "./BlogPage";
+import AboutPage from "./AboutPage";
+import TeamPage from "./TeamPage";
+import ContactPage from "./ContactPage";
 
 function PageContent() {
   return (
