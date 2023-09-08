@@ -1,5 +1,6 @@
 import React from "react";
-import { BsInstagram, BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
+// import { BsInstagram, BsFacebook, BsLinkedin } from "react-icons/bs";
+import {FaSquareFacebook, FaSquareXTwitter, FaInstagram, FaLinkedin } from "react-icons/fa6";
 
 function Socials() {
   return (
@@ -12,7 +13,7 @@ function Socials() {
             target="_blank"
             rel="noreferrer"
           >
-            <BsFacebook className="socials__list__item__link__icon" />
+            <FaSquareFacebook className="socials__list__item__link__icon" />
           </a>
         </li>
         <li className="socials__list__item">
@@ -22,7 +23,7 @@ function Socials() {
             target="_blank"
             rel="noreferrer"
           >
-            <BsInstagram className="socials__list__item__link__icon" />
+            <FaInstagram className="socials__list__item__link__icon" />
           </a>
         </li>
         <li className="socials__list__item">
@@ -32,7 +33,7 @@ function Socials() {
             target="_blank"
             rel="noreferrer"
           >
-            <BsLinkedin className="socials__list__item__link__icon" />
+            <FaLinkedin className="socials__list__item__link__icon" />
           </a>
         </li>
         <li className="socials__list__item">
@@ -42,7 +43,7 @@ function Socials() {
             target="_blank"
             rel="noreferrer"
           >
-            <BsTwitter className="socials__list__item__link__icon" />
+            <FaSquareXTwitter className="socials__list__item__link__icon" />
           </a>
         </li>
       </ul>

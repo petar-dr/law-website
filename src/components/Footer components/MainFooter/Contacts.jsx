@@ -9,10 +9,11 @@ function Contacts() {
       <a
         href="https://www.google.com/maps/place/%D0%9A%D1%80%D0%B0%D1%99%D0%B0+%D0%9F%D0%B5%D1%82%D1%80%D0%B0+68,+%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4+11000/data=!4m2!3m1!1s0x475a654b1fd76f7f:0xd3e040b6d740f912?sa=X&ved=2ahUKEwiJ28Lc14uBAxX8X_EDHco9AbkQ8gF6BAgQEAA&ved=2ahUKEwiJ28Lc14uBAxX8X_EDHco9AbkQ8gF6BAgSEAI"
         className="footerContacts__text"
-        target="_blank" 
+        target="_blank"
       >
         <FiMapPin className="footerContacts__icon" />
-        Kralja Petra 28, 11000 Belgrade, Serbia
+        Kralja Petra 28, 11000 Belgrade
+        <br /> Serbia
       </a>
       <a className="footerContacts__text" href="tel:+4733378901">
         <FiPhone className="footerContacts__icon" />
