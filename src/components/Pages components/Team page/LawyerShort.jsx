@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import img from "../../../assets/img/Team page/team_06-570x668.jpg";
 import ButtonClasic from "../../elements/ButtonClasic";
 import { BtnContext } from "../../../context/BtnContext";
