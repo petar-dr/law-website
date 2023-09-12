@@ -1,11 +1,13 @@
-@import './LawyerShort.scss';
+@import "./LawyerShort.scss";
 
-.teamPage{
-    &__main{
-        height: fit-content;
-        width: 100%;
-        padding: 100px 0;
-        display: grid;
-        place-items: center;
-    }
+.teamPage {
+  &__main {
+    height: fit-content;
+    width: 850px;
+    padding: 100px 0;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+  }
 }

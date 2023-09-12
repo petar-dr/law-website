@@ -1,16 +1,21 @@
+$widthLawyer: 350px;
+$heightLawyer: 450px;
+
 .lawyer {
-  width: 400px;
-  height: 500px;
+  width: $widthLawyer;
+  height: $heightLawyer;
   overflow: hidden;
   object-position: center;
   position: relative;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
   &__img {
     position: absolute;
-    width: 400px;
-    height: 500px;
+    width: $widthLawyer;
+    height: $heightLawyer;
     object-fit: cover;
     object-position: center;
-    z-index: -1;
+    z-index: -3;
   }
   &__text {
     position: absolute;
@@ -21,7 +26,19 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 25%;
-    background-color: black;
+    height: fit-content;
+    background-color: rgba(#161616, 0.8);
+    color: #faf4f4;
+    cursor: pointer;
+    transition: 0.5s all;
+    padding: 10px 0;
+    z-index: 0;
+    &__name {
+      font-size: 25px;
+    }
+    &__position {
+      font-size: 18px;
+      color: #808080;
+    }
   }
 }

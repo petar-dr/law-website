@@ -12,6 +12,7 @@ function TeamPage() {
       />
       <div className="teamPage__main">
         <LawyerShort />
+        <LawyerShort />
       </div>
     </div>
   );
