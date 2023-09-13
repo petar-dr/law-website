@@ -6,6 +6,7 @@ import BlogPage from "./BlogPage";
 import AboutPage from "./AboutPage";
 import TeamPage from "./TeamPage";
 import ContactPage from "./ContactPage";
+import LawyerPage from "./LawyerPage";
 
 function PageContent() {
   return (
@@ -15,7 +16,8 @@ function PageContent() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/team" element={<TeamPage />} />
-        <Route path="/contact" element={<ContactPage/>} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/lawyer" element={<LawyerPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </main>

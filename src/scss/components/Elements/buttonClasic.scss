@@ -9,7 +9,7 @@
   overflow: hidden;
   &:hover {
     color: black;
-    transition: 300ms;
+    transition: 0.3 all;
   }
   &::before {
     content: "";
