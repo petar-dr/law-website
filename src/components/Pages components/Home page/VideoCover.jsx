@@ -14,13 +14,18 @@ function VideoCover() {
         className="videoBox__videoBg"
       ></video>
       <h1 className="videoBox__title">Legal Advice. Strategy. Solutions.</h1>
-      <div className="videoBox__bottomDiv">
+      {/* <div className="videoBox__bottomDiv">
         <h3 className="videoBox__bottomDiv__text">Explore site</h3>
         <a href="#section2">
           <BsArrowDownCircle className="videoBox__bottomDiv__icon" />
         </a>
+      </div> */}
+      {/* <div className="videoBox__logoBack"></div> */}
+      <div  className="videoBox__arrow">
+        <a href="#section2">
+          <BsArrowDownCircle className="videoBox__arrow__icon" />
+        </a>
       </div>
-      <div className="videoBox__logoBack"></div>
     </div>
   );
 }
