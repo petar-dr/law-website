@@ -7,11 +7,17 @@
 .teamPage {
   &__main {
     height: fit-content;
-    width: 850px;
-    padding: 100px 0;
-    display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
+    width: 100%;
+    background-color: $bg_light;
+
+    &__box {
+      height: fit-content;
+      width: 850px;
+      padding: 100px 0;
+      display: grid;
+      place-items: center;
+      grid-template-columns: 1fr 1fr;
+      margin: 0 auto;
+    }
   }
 }

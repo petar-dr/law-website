@@ -13,8 +13,8 @@
       &__link {
         text-decoration: none;
         color: #808080;
-        &:hover{
-          color: #faf4f4;
+        &:hover {
+          color: $text_light;
           margin-left: 5px;
           transition: 0.3s;
         }

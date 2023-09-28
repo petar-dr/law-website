@@ -11,8 +11,10 @@ function TeamPage() {
         imgSource={require("../assets/img/Sections/IntroImg/Team/team1300x867.jpg")}
       />
       <div className="teamPage__main">
+        <div className="teamPage__main__box">
         <LawyerShort />
         <LawyerShort />
+        </div>
       </div>
     </div>
   );

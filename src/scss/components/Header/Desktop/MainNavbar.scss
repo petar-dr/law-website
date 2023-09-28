@@ -11,7 +11,7 @@
 
   &__navLogo {
     text-decoration: none;
-    color: white;
+    color: $text_light;
     font-size: 30px;
     font-weight: bold;
   }
@@ -37,7 +37,7 @@
         position: relative;
         width: fit-content;
         text-decoration: none;
-        color: white;
+        color: $text_light;
         padding: 5px 0;
         overflow: hidden;
         &::before {
@@ -66,9 +66,9 @@
       font-weight: bold;
       position: relative;
       text-decoration: none;
-      color: white;
+      color: $text_light;
       padding: 10px 20px;
-      border: 1px solid white;
+      border: 1px solid $text_light;
       // width: fit-content;
       overflow: hidden;
       &:hover {
@@ -99,7 +99,4 @@
   display: none;
   transition: all 0.3s;
   opacity: 0;
-}
-.mark {
-  
 }

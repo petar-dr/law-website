@@ -18,7 +18,7 @@
   }
   &__title {
     // z-index: 10;
-    color: white;
+    color: $text_light;
     font-size: 65px;
     font-weight: bold;
   }
@@ -40,13 +40,13 @@
       margin: 0;
       font-size: 25px;
       margin-right: 10px;
-      color: white;
+      color: $text_light;
 
  
     }
     &__icon {
       font-size: 25px;
-      color: white;
+      color: $text_light;
      
     }
   }
@@ -67,7 +67,7 @@
     height: fit-content;
     width: fit-content;
     border-radius: 100%;
-    color: white;
+    color: $text_light;
     &__icon{
       font-size: 50px;
       margin: 0;

@@ -8,7 +8,7 @@
   overflow: hidden;
   padding: 30px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
+z-index: 1;
   &:first-child {
     margin-top: 100px;
   }
@@ -61,7 +61,7 @@
       // width: fit-content;
       overflow: hidden;
       &:hover {
-        color: white;
+        color: $text_light;
         transition: 300ms;
       }
       &::before {
@@ -72,7 +72,7 @@
         bottom: 0;
         right: 0;
         z-index: -1;
-        background-color: #1a1616;
+        background-color: $bg_dark;
 
         transition: transform 300ms ease-in-out;
         transform: scaleX(0);

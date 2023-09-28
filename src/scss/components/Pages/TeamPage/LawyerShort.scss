@@ -15,7 +15,7 @@ $heightLawyer: 450px;
     height: $heightLawyer;
     object-fit: cover;
     object-position: center;
-    z-index: -3;
+    
   }
   &__text {
     position: absolute;
@@ -32,7 +32,7 @@ $heightLawyer: 450px;
     cursor: pointer;
     transition: 0.5s all;
     padding: 20px 0;
-    z-index: 0;
+    z-index: 1;
     &__name {
       font-size: 25px;
     }
