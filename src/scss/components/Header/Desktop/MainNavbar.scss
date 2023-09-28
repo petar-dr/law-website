@@ -30,6 +30,14 @@
     &__item {
       width: fit-content;
       padding: 0 30px;
+      border-right: 1.5px solid white;
+      &:last-child {
+        border-right: none;
+      }
+      // &:first-child {
+      //   background-color: rgba($color: white, $alpha: 0.5);
+      //   filter: grayscale(0);
+      // }
       &__link {
         font-size: 18px;
         font-weight: bold;
@@ -40,6 +48,7 @@
         color: $text_light;
         padding: 5px 0;
         overflow: hidden;
+
         &::before {
           content: "";
           position: absolute;
@@ -54,15 +63,15 @@
           transform: scaleX(0);
           transform-origin: left;
         }
-        &:hover::before {
-          transform: scaleX(1);
-        }
+        // &:hover::before {
+        //   transform: scaleX(1);
+        // }
+      
       }
     }
   }
   &__rightNav {
     &__btnContact {
-      
       font-weight: bold;
       position: relative;
       text-decoration: none;

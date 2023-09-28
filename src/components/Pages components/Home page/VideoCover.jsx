@@ -1,8 +1,9 @@
 import React from "react";
 import videoBg from "../../../assets/video/video.mp4";
-import { BsArrowDownCircle } from "react-icons/bs";
+import ExploreArrow from "./ExploreArrow";
 
 function VideoCover() {
+  
   return (
     <div className="videoBox">
       <video
@@ -21,11 +22,7 @@ function VideoCover() {
         </a>
       </div> */}
       {/* <div className="videoBox__logoBack"></div> */}
-      <div  className="videoBox__arrow">
-        <a href="#section2">
-          <BsArrowDownCircle className="videoBox__arrow__icon" />
-        </a>
-      </div>
+      <ExploreArrow/>
     </div>
   );
 }
