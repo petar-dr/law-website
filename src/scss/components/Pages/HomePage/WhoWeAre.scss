@@ -6,7 +6,8 @@
   align-items: center;
   justify-content: center;
   height: fit-content;
-  background-color: #1a1616;
+  background-color: $bg_dark;
+  
   &__box {
     max-width: 1200px;
     display: flex;

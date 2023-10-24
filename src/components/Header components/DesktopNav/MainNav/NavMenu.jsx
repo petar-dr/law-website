@@ -16,12 +16,12 @@ function NavMenu() {
           </Link>
         </li>
         <li className="mainNav__navMenu__item">
-          <Link to="/about" className="mainNav__navMenu__item__link">
+          <Link to="/about-us" className="mainNav__navMenu__item__link">
             About us
           </Link>
         </li>
         <li className="mainNav__navMenu__item">
-          <Link to="/team" className="mainNav__navMenu__item__link">
+          <Link to="/our-team" className="mainNav__navMenu__item__link">
             Our team
           </Link>
         </li>

@@ -14,9 +14,9 @@ function PageContent() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<BlogPage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/team" element={<TeamPage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/about-us" element={<AboutPage />} />
+        <Route path="/our-team" element={<TeamPage />} />
+        <Route path="/contact-us" element={<ContactPage />} />
         <Route path="/lawyer" element={<LawyerPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

@@ -18,7 +18,7 @@ function WhoWeAre() {
             nobis autem recusandae consequatur sed asperiores, unde cupiditate
             saepe nostrum facere voluptates dignissimos.
           </p>
-          <Link to="/about" className="howWeAre__box__description__link">
+          <Link to="/about-us" className="howWeAre__box__description__link">
             Read more
           </Link>
         </div>
